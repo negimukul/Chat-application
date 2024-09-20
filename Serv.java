@@ -48,7 +48,7 @@ public class Serv  implements ActionListener {
         });
 
         // inserting dp
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/mukul.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/1.png"));
         Image i5 = i4.getImage().getScaledInstance(50, 50, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         JLabel profile = new JLabel(i6);
